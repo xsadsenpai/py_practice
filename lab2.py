@@ -1,1 +1,2 @@
-print("hello")
+result = not True
+print(result)
