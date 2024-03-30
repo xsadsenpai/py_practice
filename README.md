@@ -21,7 +21,7 @@ print(result)
 ```
 
 - Скрины консоли
-  ![img_3_1.png](https://github.com/xsadsenpai/py_practice/blob/lab2/pic/img_3_1.png)
+  ![img_3_1.png](https://github.com/xsadsenpai/py_practice/blob/lab3/pic/img_3_1.png)
 
 - Развернутый вывод
 
