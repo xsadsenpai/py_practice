@@ -1,34 +1,3 @@
-## Самостоятельная работа №4
-
-### Задание №1
-- Текст задания
-
-Дайте подробный комментарий для кода, написанного ниже. 
-Комментарий нужен для каждой строчки кода, нужно описать что она делает. Не забудьте, что функции комментируются по-особенному.
-
-```python 
-from datetime import datetime
-from math import sqrt
-
-def main(**kwargs):
- for key in kwargs.items():
- 	result = sqrt(key[1][0] ** 2 + key[1][1] ** 2)
- 	print(result)
-if __name__ == '__main__':
- start_time = datetime.now()
- main(
- 	one=[10, 3],
- 	two=[5, 4],
- 	three=[15, 13],
- 	four=[93, 53],
- 	five=[133, 15]
- )
- time_costs = datetime.now() - start_time
- print(f"Время выполнения программы - {time_costs}")
-```
-- Оформленный код
-
-```python
 from datetime import datetime  # Импорт класса datetime из модуля datetime.
 
 from math import sqrt  # Импорт функции sqrt (квадратный корень) из модуля math.
@@ -51,12 +20,3 @@ if __name__ == '__main__':  # Проверка, выполняется ли ск
 
     time_costs = datetime.now() - start_time  # Вычисление времени выполнения программы.
     print(f"Время выполнения программы - {time_costs}")  # Вывод времени выполнения программы.
-
-```
-
-- Скрины консоли
-  ![img_4_1.png](https://github.com/xsadsenpai/py_practice/blob/lab4/pic/img_4_1.png)
-
-- Развернутый вывод
-
-  Закомментил код.
