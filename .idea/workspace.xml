@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ef9710-0770-4a8d-938a-4983749547e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kontur.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/img_7_1_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/img_7_1_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/img_7_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +40,7 @@
     "Python.lab6_4.executor": "Run",
     "Python.lab6_5.executor": "Run",
     "Python.lab7_1.executor": "Run",
+    "Python.lab7_2.executor": "Run",
     "git-widget-placeholder": "lab7",
     "node.js.selected.package.tslint": "(autodetect)"
   }
@@ -61,6 +57,7 @@
     <SUITE FILE_PATH="coverage/py_practice$lab2_4.coverage" NAME="lab2_4 Coverage Results" MODIFIED="1711815749077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_practice$lab2_5.coverage" NAME="lab2_5 Coverage Results" MODIFIED="1711816104702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_practice$lab3_3.coverage" NAME="lab3_3 Coverage Results" MODIFIED="1711818428839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_practice$lab7_2.coverage" NAME="lab7_2 Coverage Results" MODIFIED="1711831595075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_practice$lab4_5_1.coverage" NAME="lab4_5_1 Coverage Results" MODIFIED="1711824491419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_practice$lab6_4.coverage" NAME="lab6_4 Coverage Results" MODIFIED="1711828698088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_practice$lab2_2.coverage" NAME="lab2_2 Coverage Results" MODIFIED="1711814700760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
