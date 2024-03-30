@@ -14,7 +14,7 @@ print(result)
 ```
 
 - Скрины консоли
-  ![img_1.png](https://github.com/xsadsenpai/py_practice/blob/lab2/pic/img_1.png)
+  ![img_2_1.png](https://github.com/xsadsenpai/py_practice/blob/lab2/pic/img_2_1.png)
 - Развернутый вывод
 Этот код создает переменную под названием result, которая получает значение, которое является обратным для истины. То есть, когда мы берем истину (True) и делаем ее обратной, получается ложь (False). Затем программа выводит это значение (ложь) в консоль. Таким образом, на экране будет напечатано False.
 
@@ -31,7 +31,7 @@ a, b, c = 1, 2, 3; print(a, b, c)
 ```
 
 - Скрины консоли
-  ![img_1.png](https://github.com/xsadsenpai/py_practice/blob/lab2/pic/img_1.png)
+  ![img_2_2.png](https://github.com/xsadsenpai/py_practice/blob/lab2/pic/img_2_2.png)
 - Развернутый вывод
 Этот код присваивает значения 1, 2 и 3 переменным a, b и c соответственно, и затем выводит их на консоль, используя функцию print() в одной строке.
 
