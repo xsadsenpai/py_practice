@@ -105,3 +105,101 @@ print("Словарь из трех самых часто встречаемых
 
 Этот код создает функцию с именем count_dig, которая принимает строку, содержащую числа. Функция подсчитывает, сколько раз каждая цифра встречается в строке, и сохраняет результаты в словаре. Затем функция выбирает три самые часто встречаемые цифры и создает новый словарь с этими цифрами и их количеством встречаний. В конце кода задается строка s, для которой вызывается функция count_dig, и результат выводится на экран в виде словаря.
 
+### Задание №4
+- Текст задания
+
+Ваш хороший друг владеет офисом со входом по электронным картам, ему нужно чтобы вы написали программу, которая показывала в каком порядке сотрудники входили и выходили из офиса. Определение сотрудника происходит по id. Напишите функцию, которая на вход принимает кортеж и случайный элемент(id), его можно придумать самостоятельно. Требуется вернуть новый кортеж, начинающийся с первого появления элемента в нем и заканчивающийся вторым его появлением включительно.
+Если элемента нет вовсе – вернуть пустой кортеж.Если элемент встречается только один раз, то вернуть кортеж, который начинается с него и идет до конца исходного.
+
+Входные данные:
+
+(1, 2, 3), 8)
+
+(1, 8, 3, 4, 8, 8, 9, 2), 8)
+
+(1, 2, 8, 5, 1, 2, 9), 8)
+
+Ожидаемый результат:
+
+()
+
+(8, 3, 4, 8)
+
+(8, 5, 1, 2, 9)
+
+- Оформленный код
+
+```python
+def emp_test(log_tuple, emp_test_id):
+    if emp_test_id not in log_tuple:
+        return ()
+
+    index1 = log_tuple.index(emp_test_id)
+
+    if log_tuple.count(emp_test_id) == 1:
+        return log_tuple[index1:]
+
+    index2 = log_tuple.index(emp_test_id, index1 + 1)
+
+    return log_tuple[index1:index2 + 1]
+
+data = [
+    ((1, 2, 3), 8),
+    ((1, 8, 3, 4, 8, 8, 9, 2), 8),
+    ((1, 2, 8, 5, 1, 2, 9), 8)
+]
+
+for log_tuple, emp_test_id in data:
+    print(emp_test(log_tuple, emp_test_id))
+```
+
+- Скрины консоли
+  ![img_6_4.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_4.png)
+
+- Развернутый вывод
+
+Этот код содержит функцию testing, которая ищет первое и второе вхождение заданного элемента emp_test_id в кортеже log_tuple. Если элемент встречается только один раз, функция возвращает подкортеж, начиная с этого элемента до конца исходного кортежа. В противном случае она возвращает подкортеж, начиная с первого вхождения элемента и заканчивая вторым включительно. В конце кода тестовые данные проверяются на работоспособность функции.
+
+### Задание №5
+- Текст задания
+
+Самостоятельно придумайте и решите задачу, в которой будут обязательно использоваться кортеж или список.  Проведите минимум три теста для проверки работоспособности вашей задачи.
+
+- Оформленный код
+
+```python
+def count_vowels(st):
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    vowel_count = {vowel: 0 for vowel in vowels}
+
+    for char in st.lower():
+        if char in vowels:
+            vowel_count[char] += 1
+
+    return [vowel_count[vowel] for vowel in vowels]
+
+data = [
+    "Tuples (tuple type) are an immutable data type in Python that are used to store an ordered sequence of elements.",
+    "These collections have three great properties:",
+    "Immutability. Once a tuple is created, elements cannot be added to it, nor can they be modified or deleted. When you try to do this, the interpreter will throw a TypeError",
+    "Orderliness. The elements of a tuple are arranged in a certain order, which is also immutable. Any element can be accessed by its index (ordinal number).",
+    "The elements of a tuple can be objects of different data types: numbers, strings, lists, other tuples, and others. Collection elements can have unlimited nesting depth. For example, a tuple may contain a list, which will contain another list, which will again contain a list, and so on."
+]
+
+for st in data:
+    print("Строка:", st)
+    print("Количество гласных:", count_vowels(st))
+    print()
+```
+
+- Скрины консоли
+- 
+  ![img_6_5_1.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_5_1.png)
+-
+- ![img_6_5_2.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_5_2.png)
+- 
+- ![img_6_5_3.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_5_3.png)
+- 
+- Развернутый вывод
+
+Этот код определяет функцию count_vowels, которая принимает строку st в качестве входных данных. Функция подсчитывает количество каждой гласной буквы в строке и возвращает список, в котором каждый элемент представляет собой количество вхождений каждой гласной буквы ('a', 'e', 'i', 'o', 'u') в строку. После определения функции задаются тестовые строки, и для каждой из них выводится исходная строка и количество гласных в ней.
