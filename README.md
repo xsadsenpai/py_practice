@@ -18,7 +18,7 @@ print("Кортеж чисел:", nums_tuple)
 ```
 
 - Скрины консоли
-  ![img_6_1.png](https://github.com/xsadsenpai/py_practice/blob/lab2/pic/img_6_1.png)
+  ![img_6_1.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_1.png)
 
 - Развернутый вывод
 
