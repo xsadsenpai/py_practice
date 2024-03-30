@@ -109,7 +109,7 @@ def main():
         print("Начинается с «The»", sentence.startswith("The"))
         print("Заканчивается словом «End»:", sentence.endswith("End"))
         print()
-if __name__ == "__main__":
+if __name__ == "__main__": #Это проверка, запущена ли программа напрямую из командной строки (а не импортирована как модуль). Если условие выполняется, вызывается функция main(), которая запускает основную логику программы.
     main()
 ```
 
@@ -123,17 +123,38 @@ if __name__ == "__main__":
 ### Задание №5
 - Текст задания
 
+Составьте программу, результатом которой будет данный вывод в консоль:
+hello world
+hello
+hello world
+hello
+hello world
+hello
+hello world
+hello
+hello world
+hello
+hello world
+hello
 
 - Оформленный код
 
 ```python
-
+for _ in range(5):
+    print("hello world")
+    print("hello")
 ```
 
 - Скрины консоли
   ![img_3_5.png](https://github.com/xsadsenpai/py_practice/blob/lab3/pic/img_3_5.png)
 
 - Развернутый вывод
+
+Этот код использует цикл for, который повторяет вывод двух строк "hello world" и "hello" 5 раз. Каждая пара строк выводится последовательно.
+
+
+
+
 
 
 
