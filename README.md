@@ -124,41 +124,75 @@ if __name__ == "__main__": #Это проверка, запущена ли пр�
 - Текст задания
 
 Составьте программу, результатом которой будет данный вывод в консоль:
+
 hello world
+
 hello
+
 hello world
+
 hello
+
 hello world
+
 hello
+
 hello world
+
 hello
+
 hello world
+
 hello
+
 hello world
+
 hello
+
 Программу нужно составить из данных фрагментов кода:
+
 memory = ' world'
+
 if values not in string:
+
 while ' world' not in string:
+
 string = string + ' world'
+
 if counter in values:
+
 counter = 10
+
 string = 'hello'
+
 string = memory
+
 string = 'world'
+
 counter = 0
+
 if counter > 7:
+
 print(string + memory)
+
 print(string)
+
 while counter !=10:
+
 values = [0, 2, 4, 6, 8, 10]
+
 memory = string
+
 if counter < 10:
+
 counter += 1
+
 print(memory)
+
 memory = string
+
 Строки кода можно использовать только один раз.
-Не обязательно использовать все строки кода.
+Необязательно использовать все строки кода.
 
 - Оформленный код
 
