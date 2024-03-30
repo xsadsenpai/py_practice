@@ -123,9 +123,9 @@ if __name__ == "__main__":
 
 - Скрины консоли
 
-  ![img_7_2_1.png](https://github.com/xsadsenpai/py_practice/blob/lab2/pic/img_7_2_1.png)
+  ![img_7_2_1.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_2_1.png)
 
-  ![img_7_2_1.png](https://github.com/xsadsenpai/py_practice/blob/lab2/pic/img_7_2_1.png)
+  ![img_7_2_2.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_2_2.png)
 
 - Развернутый вывод
 
