@@ -210,6 +210,7 @@ hello email python the exam wor is
 • Предложение для проверки:
 
 Hello, world! Python IS the programming language of thE future. My EMAIL is.... PYTHON is awesome!!!!
+
 • Ожидаемый результат:
 *****, ***ld! ****** ** *** programming language of *** future. My ***** **.... ****** ** awesome!!!!
 
