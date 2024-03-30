@@ -196,4 +196,63 @@ if num_letters is not None and num_words is not None and num_lines is not None:
 
 - Развернутый вывод
 
-Код загружает файл, анализирует и выводит статистику по заданию.
+Код загружает файл, анализирует и выводит статистику по тексту.
+
+### Задание №4
+- Текст задания
+
+Напишите программу, которая получает на вход предложение, выводит его в терминал, заменяя все запрещенные слова звездочками * (количество звездочек равно количеству букв в слове). Запрещенные слова, разделенные символом пробела, хранятся в текстовом файле input.txt. Все слова в этом файле записаны в нижнем регистре. Программа должна заменить запрещенные слова, где бы они ни встречались, даже в середине другого слова. Замена производится независимо от регистра: если файл input.txt содержит запрещенное слово exam, то слова exam, Exam, ExaM, EXAM и exAm должны быть заменены на ****.
+
+• Запрещенные слова:
+
+hello email python the exam wor is
+
+• Предложение для проверки:
+
+Hello, world! Python IS the programming language of thE future. My EMAIL is.... PYTHON is awesome!!!!
+• Ожидаемый результат:
+*****, ***ld! ****** ** *** programming language of *** future. My ***** **.... ****** ** awesome!!!!
+
+- Оформленный код
+
+```python
+def censor_sentence(sentence, forbidden_words):
+    censored_sentence = sentence.lower()
+    for word in forbidden_words:
+        censored_sentence = censored_sentence.replace(word, '*' * len(word))
+    return censored_sentence
+
+def load_forbidden_words(file_name):
+    try:
+        with open(file_name, 'r') as file:
+            forbidden_words = file.read().split()
+            return forbidden_words
+    except FileNotFoundError:
+        print("Файл с запрещенными словами не найден.")
+        return []
+
+def main():
+    forbidden_words_file = "input2.txt"
+    sentence = input("Введите предложение для проверки: ")
+
+    forbidden_words = load_forbidden_words(forbidden_words_file)
+
+    censored_sentence = censor_sentence(sentence, forbidden_words)
+    print("Предложение с замененными запрещенными словами:")
+    print(censored_sentence)
+
+if __name__ == "__main__":
+    main()
+```
+
+- Скрины консоли
+
+  ![img_7_4_1.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_4_1.png)
+
+  ![img_7_4_2.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_4_2.png)
+
+
+
+- Развернутый вывод
+
+Код берет из файла слова, который в бане и заменяет на *** их в консоле, если они попадают в запрос.
