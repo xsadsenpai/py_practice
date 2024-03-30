@@ -14,12 +14,12 @@ checks = [
 total_checks = len(checks)
 
 # Подсчет количества разных посетителей
-unique_visitors = len(set(checks))
+any_visitors = len(set(checks))
 
 # Определение работника, который посетил ресторан больше всех раз
-most_frequent_visitor = Counter(checks).most_common(1)[0][0]
+visitor = Counter(checks).most_common(1)[0][0]
 
 # Вывод результатов
 print(f"Количество выданных чеков за неделю: {total_checks}")
-print(f"Количество разных посетителей: {unique_visitors}")
-print(f"Самый частый посетитель (код работника): {most_frequent_visitor}")
+print(f"Количество разных посетителей: {any_visitors}")
+print(f"Самый частый посетитель (код работника): {visitor}")
