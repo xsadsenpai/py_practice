@@ -136,13 +136,42 @@ hello world
 hello
 hello world
 hello
+Программу нужно составить из данных фрагментов кода:
+memory = ' world'
+if values not in string:
+while ' world' not in string:
+string = string + ' world'
+if counter in values:
+counter = 10
+string = 'hello'
+string = memory
+string = 'world'
+counter = 0
+if counter > 7:
+print(string + memory)
+print(string)
+while counter !=10:
+values = [0, 2, 4, 6, 8, 10]
+memory = string
+if counter < 10:
+counter += 1
+print(memory)
+memory = string
+Строки кода можно использовать только один раз.
+Не обязательно использовать все строки кода.
 
 - Оформленный код
 
 ```python
-for _ in range(5):
-    print("hello world")
-    print("hello")
+string = 'hello'
+memory = ' world'
+counter = 0
+
+while counter != 6:
+    print(string + memory)
+    print(string)
+    counter += 1
+
 ```
 
 - Скрины консоли
@@ -150,7 +179,11 @@ for _ in range(5):
 
 - Развернутый вывод
 
-Этот код использует цикл for, который повторяет вывод двух строк "hello world" и "hello" 5 раз. Каждая пара строк выводится последовательно.
+Этот код выводит "hello world" и "hello" поочередно 6 раз. Как указано в задании.
+
+
+
+
 
 
 
