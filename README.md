@@ -193,12 +193,12 @@ for st in data:
 ```
 
 - Скрины консоли
-- 
+
   ![img_6_5_1.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_5_1.png)
 
-- ![img_6_5_2.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_5_2.png)
+  ![img_6_5_2.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_5_2.png)
 
-- ![img_6_5_3.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_5_3.png)
+  ![img_6_5_3.png](https://github.com/xsadsenpai/py_practice/blob/lab6/pic/img_6_5_3.png)
 
 - Развернутый вывод
 
