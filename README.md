@@ -134,3 +134,66 @@ if __name__ == "__main__":
 - Развернутый вывод
 
 Через консоль есть возможность добавить категорию и указать текущие расходы. В сам файл вписываются данные.
+
+### Задание №3
+- Текст задания
+
+Имеется файл input.txt с текстом на латинице. Напишите программу, которая выводит следующую статистику по тексту: количество букв латинского алфавита; число слов; число строк.
+
+• Текст в файле:
+
+Beautiful is better than ugly.
+
+Explicit is better than implicit.
+
+Simple is better than complex.
+
+Complex is better than complicated.
+
+• Ожидаемый результат:
+
+Input file contains:
+
+108 letters
+
+20 words
+
+4 lines
+
+- Оформленный код
+
+```python
+def analyze_text(file_name):
+    try:
+        with open(file_name, 'r') as file:
+            text = file.read()
+            num_letters = sum(c.isalpha() for c in text)
+            num_words = len(text.split())
+            num_lines = text.count('\n') + 1
+            return num_letters, num_words, num_lines
+    except FileNotFoundError:
+        print("Файл не найден.")
+        return None, None, None
+
+file_name = "input.txt"
+
+num_letters, num_words, num_lines = analyze_text(file_name)
+
+if num_letters is not None and num_words is not None and num_lines is not None:
+    print("Input file contains:")
+    print(f"{num_letters} letters")
+    print(f"{num_words} words")
+    print(f"{num_lines} lines")
+```
+
+- Скрины консоли
+
+  ![img_7_3_1.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_3_1.png)
+
+  ![img_7_3_2.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_3_2.png)
+
+
+
+- Развернутый вывод
+
+Код загружает файл, анализирует и выводит статистику по заданию.
