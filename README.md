@@ -127,6 +127,10 @@ if __name__ == "__main__":
 
   ![img_7_2_2.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_2_2.png)
 
+  ![img_7_2_3.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_2_3.png)
+
+   ![img_7_2_4.png](https://github.com/xsadsenpai/py_practice/blob/lab7/pic/img_7_2_4.png)
+
 - Развернутый вывод
 
 Через консоль есть возможность добавить категорию и указать текущие расходы
